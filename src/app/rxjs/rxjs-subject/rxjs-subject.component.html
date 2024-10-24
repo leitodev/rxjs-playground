@@ -1,0 +1,17 @@
+
+<h1>Rxjs subject <img src="https://rxjs.dev/generated/images/marketing/home/Rx_Logo-512-512.png" width="50" alt=""></h1>
+
+
+<button (click)="emitSubject()">emitSubject</button>
+<button (click)="unsubscribe()">unsubscribe</button>
+
+
+<h3>subject: | emit value only when subscription is exist</h3>
+<div>{{ subjectArr | json}}</div>
+
+<h3>replaySubject: | emit all values from buffer</h3>
+<div>{{ replaySubjectArr | json}}</div>
+
+
+<h3>behaviorArr:  | emit only last value</h3>
+<div>{{ behaviorArr | json}}</div>
